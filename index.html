@@ -1,105 +1,1902 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 
-		<!-- Compiled and minified CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+	<!-- Compiled and minified JavaScript -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 
-		<!-- Compiled and minified JavaScript -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+	<title>Learning Materialze Framework</title>
+</head>
 
-		<title>Learning Materialze Framework</title>
-	</head>
+<body>
+	<div class="container">
+		<h1>Learning Materialze Framework</h1>
+		<h3>Grid</h3>
 
-	<body>
-		<div class="container">
-			<h1>Learning Materialze Framework</h1>
-			<h2>Grid</h2>
-
-			<div class="row">
-				<div class="col s1">1</div>
-				<div class="col s1">1</div>
-				<div class="col s2">2</div>
-				<div class="col s2">2</div>
-				<div class="col s3">3</div>
-				<div class="col s3">3</div>
-			</div>
-
-			<div class="row">
-				<div class="col s3">3</div>
-				<div class="col s4">5</div>
-				<div class="col s5">5</div>
-			</div>
-
-			<div class="row">
-				<div class="col s12">This div is 12-columns wide on all screen sizes</div>
-				<div class="col s6">6-columns (one-half)</div>
-				<div class="col s6">6-columns (one-half)</div>
-			</div>
-
-			<div class="row">
-				<div class="col s12"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
-				<div class="col s6 offset-s6"><span class="flow-text">6-columns (offset-by-6)</span></div>
-			</div>
-
-			<div class="divider"></div>
-			<div class="section">
-				<h5>Section 1</h5>
-				<p>Stuff</p>
-			</div>
-			<div class="divider"></div>
-			<div class="section">
-				<h5>Section 2</h5>
-				<p>Stuff</p>
-			</div>
-			<div class="divider"></div>
-			<div class="section">
-				<h5>Section 3</h5>
-				<p>Stuff</p>
-			</div>
-
-			<div class="row">
-				<div class="grid-example col s12"><span class="flow-text">I am always full-width (col s12)</span></div>
-				<div class="grid-example col s12 m6"><span class="flow-text">I am full-width on mobile (col s12 m6)</span></div>
-			</div>
-
-
-			<div class="row">
-				<div class="col s12">
-					<p>s12</p>
-				</div>
-				<div class="col s12 m4 l2">
-					<p>s12 m4</p>
-				</div>
-				<div class="col s12 m4 l8">
-					<p>s12 m4</p>
-				</div>
-				<div class="col s12 m4 l2">
-					<p>s12 m4</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col s12 m6 l3">
-					<p>s12 m6 l3</p>
-				</div>
-				<div class="col s12 m6 l3">
-					<p>s12 m6 l3</p>
-				</div>
-				<div class="col s12 m6 l3">
-					<p>s12 m6 l3</p>
-				</div>
-				<div class="col s12 m6 l3">
-					<p>s12 m6 l3</p>
-				</div>
-			</div>
-
-
+		<div class="row">
+			<div class="col s1">1</div>
+			<div class="col s1">1</div>
+			<div class="col s2">2</div>
+			<div class="col s2">2</div>
+			<div class="col s3">3</div>
+			<div class="col s3">3</div>
 		</div>
 
-	</body>
+		<div class="row">
+			<div class="col s3">3</div>
+			<div class="col s4">5</div>
+			<div class="col s5">5</div>
+		</div>
+
+		<div class="row">
+			<div class="col s12">This div is 12-columns wide on all screen sizes</div>
+			<div class="col s6">6-columns (one-half)</div>
+			<div class="col s6">6-columns (one-half)</div>
+		</div>
+
+		<div class="row">
+			<div class="col s12"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+			<div class="col s6 offset-s6"><span class="flow-text">6-columns (offset-by-6)</span></div>
+		</div>
+
+		<div class="divider"></div>
+		<div class="section">
+			<h5>Section 1</h5>
+			<p>Stuff</p>
+		</div>
+		<div class="divider"></div>
+		<div class="section">
+			<h5>Section 2</h5>
+			<p>Stuff</p>
+		</div>
+		<div class="divider"></div>
+		<div class="section">
+			<h5>Section 3</h5>
+			<p>Stuff</p>
+		</div>
+
+		<div class="row">
+			<div class="grid-example col s12"><span class="flow-text">I am always full-width (col s12)</span></div>
+			<div class="grid-example col s12 m6"><span class="flow-text">I am full-width on mobile (col s12 m6)</span></div>
+		</div>
+
+
+		<div class="row">
+			<div class="col s12">
+				<p>s12</p>
+			</div>
+			<div class="col s12 m4 l2">
+				<p>s12 m4</p>
+			</div>
+			<div class="col s12 m4 l8">
+				<p>s12 m4</p>
+			</div>
+			<div class="col s12 m4 l2">
+				<p>s12 m4</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12 m6 l3">
+				<p>s12 m6 l3</p>
+			</div>
+			<div class="col s12 m6 l3">
+				<p>s12 m6 l3</p>
+			</div>
+			<div class="col s12 m6 l3">
+				<p>s12 m6 l3</p>
+			</div>
+			<div class="col s12 m6 l3">
+				<p>s12 m6 l3</p>
+			</div>
+		</div>
+
+		<h3>Helpers: Alignment</h3>
+		<div class="valign-wrapper">
+			<h5>This should be vertically aligned</h5>
+		</div>
+
+		<div>
+			<h5 class="left-align">This should be left aligned</h5>
+		</div>
+		<div>
+			<h5 class="right-align">This should be right aligned</h5>
+		</div>
+		<div>
+			<h5 class="center-align">This should be center aligned</h5>
+		</div>
+
+		<div class="left">Float Left</div>
+		<div class="right">Float Right</div>
+		<br style="clear:both;">
+
+		<h3>Helpers: Responsive Hiding</h3>
+		<div class="hide">.hide</div>
+		<div class="hide-on-small-only">.hide-on-small-only</div>
+		<div class="hide-on-med-and-down">.hide-on-med-and-down</div>
+		<div class="hide-on-med-only">.hide-on-med-only</div>
+		<div class="hide-on-med-and-up">.hide-on-med-and-up</div>
+		<div class="hide-on-large-only">.hide-on-large-only</div>
+
+		<h3>Helpers: Formatting</h3>
+		<h4 class="truncate">This is an extremely long title that will be truncated</h4>
+		<div class="card-panel hoverable"> Hoverable Card Panel</div>
+		<p>Because we override many of the default browser styles and elements, we provide the .browser-default class to revert these elements to their original state.</p>
+
+		<h3>Media</h3>
+		<p>Responsive Images</p>
+		<img class="responsive-img" src="http://via.placeholder.com/1000x150.jpg">
+
+		<div class="col s12 m8 offset-m2 l6 offset-l3">
+			<div class="card-panel grey lighten-5 z-depth-1">
+				<div class="row valign-wrapper" style="margin-bottom:0;">
+					<div class="col s2">
+						<img src="http://via.placeholder.com/300x300" alt="" class="circle responsive-img">
+						<!-- notice the "circle" class -->
+					</div>
+					<div class="col s10">
+						<span class="black-text">
+              This is a square image. Add the "circle" class to it to make it appear circular.
+            </span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<p>Responsive Videos</p>
+		<div class="video-container">
+			<iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+		<video class="responsive-video" controls>
+      <source src="movie.mp4" type="video/mp4">
+      </video>
+
+		<h3>Pulse Effect</h3>
+		<a class="btn btn-floating pulse"><i class="material-icons">menu</i></a>
+		<a class="btn btn-floating btn-large pulse"><i class="material-icons">cloud</i></a>
+		<a class="btn btn-floating btn-large cyan pulse"><i class="material-icons">edit</i></a>
+
+		<h3>Sass Variables</h3>
+		<div class="card-panel hoverable">
+			<code>
+        <pre>
+$primary-color: color("materialize-red", "lighten-2") !default;
+$primary-color-light: false !default;
+$primary-color-dark: false !default;
+@if not $primary-color-light {
+  $primary-color-light: lighten($primary-color, 15%);
+}
+@if not $primary-color-dark {
+  $primary-color-dark: darken($primary-color, 15%);
+}
+$secondary-color: color("teal", "lighten-1") !default;
+$success-color: color("green", "base") !default;
+$error-color: color("red", "base") !default;
+
+$link-color: color("light-blue", "darken-1") !default;
+
+/*** More variables not shown here.. ***/
+        </pre>
+      </code>
+		</div>
+
+		<h3>Media Queries</h3>
+		<row>
+			<col class="sm-12">
+			<p>We have 3 media queries for the 3 standard screen sizes you can use in your custom Sass files. This also includes media query variables that will define the range.</p>
+			<ul class="browser-default">
+				<li>Small screens are defined as having a max-width of 600px</li>
+				<li>Medium screens are defined as having a max-width of 992px </li>
+				<li>Large screen are defined as having a min-width of 993px </li>
+				<li>Extra Large screen are defined as having a min-width of 1200px</li>
+			</ul>
+			</col>
+		</row>
+
+		<h3>Breakpoint Mixins</h3>
+		<div class="card-panel hoverable">
+			<code>
+      <pre>
+@media #{$small-and-down} {
+  // styles for small screens and down
+}
+@media #{$medium-and-up} {
+  // styles for medium screens and larger
+}
+@media #{$medium-and-down} {
+  // styles for medium screens and down
+}
+@media #{$large-and-up} {
+  // styles for large screens and up
+}
+@media #{$extra-large-and-up} {
+  // styles for extra large screens and up
+}
+      </pre>
+    </code>
+		</div>
+
+		<h3>Prefixer Mixins</h3>
+		<div class="card-panel hoverable">
+			<code>
+      <pre>
+## Example
+@include transition(.3s);
+
+## Full List
+animation($args)
+  animation-delay($delay)
+  animation-direction($direction)
+  animation-duration($duration)
+  animation-fill-mode($mode)
+  animation-iteration-count($count)
+  animation-name($name)
+  animation-play-state($state)
+  animation-timing-function($function)
+  background-size($args)
+  box-sizing($args)
+      border-box()
+      content-box()
+  columns($args)
+      column-count($count)
+      column-gap($gap)
+      column-rule($args)
+      column-width($width)
+  gradient($default,$start,$stop)
+      linear-gradient-top($default,$color1,$stop1,$color2,$stop2,[$color3,$stop3,$color4,$stop4])
+      linear-gradient-left($default,$color1,$stop1,$color2,$stop2,[$color3,$stop3,$color4,$stop4])
+  transform($args)
+      transform-origin($args)
+      transform-style($style)
+      rotate($deg)
+      scale($factor)
+      translate($x,$y)
+      translate3d($x,$y,$z)
+      translateHardware($x,$y)
+  text-shadow($args)
+  transition($args)
+      transition-delay($delay)
+      transition-duration($duration)
+      transition-property($property)
+      transition-timing-function($function)
+      </pre>
+    </code>
+		</div>
+
+		<h3>Shadows</h3>
+
+		<div class="col s12 m2">
+			<p class="z-depth-1">z-depth-1</p>
+		</div>
+		<div class="col s12 m2">
+			<p class="z-depth-2">z-depth-2</p>
+		</div>
+		<div class="col s12 m2">
+			<p class="z-depth-3">z-depth-3</p>
+		</div>
+		<div class="col s12 m2">
+			<p class="z-depth-4">z-depth-4</p>
+		</div>
+		<div class="col s12 m2">
+			<p class="z-depth-5">z-depth-5</p>
+		</div>
+
+		<h3>Tables</h3>
+		<h4>Table</h4>
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Item Name</th>
+					<th>Item Price</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Alvin</td>
+					<td>Eclair</td>
+					<td>$0.87</td>
+				</tr>
+				<tr>
+					<td>Alan</td>
+					<td>Jellybean</td>
+					<td>$3.76</td>
+				</tr>
+				<tr>
+					<td>Jonathan</td>
+					<td>Lollipop</td>
+					<td>$7.00</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h4> Bordered Table</h4>
+		<table class="bordered">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Item Name</th>
+					<th>Item Price</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Alvin</td>
+					<td>Eclair</td>
+					<td>$0.87</td>
+				</tr>
+				<tr>
+					<td>Alan</td>
+					<td>Jellybean</td>
+					<td>$3.76</td>
+				</tr>
+				<tr>
+					<td>Jonathan</td>
+					<td>Lollipop</td>
+					<td>$7.00</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h4> Striped Table</h4>
+		<table class="striped">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Item Name</th>
+					<th>Item Price</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Alvin</td>
+					<td>Eclair</td>
+					<td>$0.87</td>
+				</tr>
+				<tr>
+					<td>Alan</td>
+					<td>Jellybean</td>
+					<td>$3.76</td>
+				</tr>
+				<tr>
+					<td>Jonathan</td>
+					<td>Lollipop</td>
+					<td>$7.00</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h4> Highlight Table</h4>
+		<table class="highlight">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Item Name</th>
+					<th>Item Price</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Alvin</td>
+					<td>Eclair</td>
+					<td>$0.87</td>
+				</tr>
+				<tr>
+					<td>Alan</td>
+					<td>Jellybean</td>
+					<td>$3.76</td>
+				</tr>
+				<tr>
+					<td>Jonathan</td>
+					<td>Lollipop</td>
+					<td>$7.00</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h4> Responsive (Scrollable) Table</h4>
+		<table class="responsive">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Item Name</th>
+					<th>Item Price</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Alvin</td>
+					<td>Eclair</td>
+					<td>$0.87</td>
+				</tr>
+				<tr>
+					<td>Alan</td>
+					<td>Jellybean</td>
+					<td>$3.76</td>
+				</tr>
+				<tr>
+					<td>Jonathan</td>
+					<td>Lollipop</td>
+					<td>$7.00</td>
+				</tr>
+			</tbody>
+		</table>
+		<h4> Centered Table</h4>
+		<table class="centered">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Item Name</th>
+					<th>Item Price</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Alvin</td>
+					<td>Eclair</td>
+					<td>$0.87</td>
+				</tr>
+				<tr>
+					<td>Alan</td>
+					<td>Jellybean</td>
+					<td>$3.76</td>
+				</tr>
+				<tr>
+					<td>Jonathan</td>
+					<td>Lollipop</td>
+					<td>$7.00</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Typography</h3>
+		<blockquote>
+			This is an example quotation that uses the blockquote tag.
+		</blockquote>
+		<p class="flow-text">I am Flow Text</p>
+
+
+		<h2>Components</h2>
+
+		<h3>Badges</h3>
+		<div class="collection">
+			<a href="#!" class="collection-item"><span class="badge">1</span>Alan</a>
+			<a href="#!" class="collection-item"><span class="new badge">4</span>Alan</a>
+			<a href="#!" class="collection-item">Alan</a>
+			<a href="#!" class="collection-item"><span class="badge">14</span>Alan</a>
+		</div>
+
+		<ul id="dropdown2" class="dropdown-content">
+			<li><a href="#!">one<span class="badge">1</span></a></li>
+			<li><a href="#!">two<span class="new badge">1</span></a></li>
+			<li><a href="#!">three</a></li>
+		</ul>
+		<a class="btn dropdown-button" href="#!" data-activates="dropdown2">Dropdown<i class="mdi-navigation-arrow-drop-down right"></i></a>
+
+		<nav>
+			<div class="nav-wrapper">
+				<a href="" class="brand-logo">Logo</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="">sass</a></li>
+					<li><a href="">sass <span class="new badge">4</span></a></li>
+					<li><a href="">sass</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<ul class="collapsible" data-collapsible="accordion">
+			<li>
+				<div class="collapsible-header"><span class="new badge">4</span><i class="material-icons">filter_drama</i>First</div>
+				<div class="collapsible-body">
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</li>
+			<li>
+				<div class="collapsible-header"><span class="badge">1</span><i class="material-icons">place</i>Second</div>
+				<div class="collapsible-body">
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</li>
+		</ul>
+		<h3>Buttons</h3>
+		<h4>Raised</h4>
+		<a class="waves-effect waves-light btn">button</a>
+		<a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+		<a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+		<h4>Floating</h4>
+		<a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+		<h4>Fixed Floating Action Button</h4>
+		<code><pre>
+$('.fixed-action-btn').openFAB();
+$('.fixed-action-btn').closeFAB();
+$('.fixed-action-btn.toolbar').openToolbar();
+$('.fixed-action-btn.toolbar').closeToolbar();
+</pre></code>
+		<div class="fixed-action-btn">
+			<a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+			<ul>
+				<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+				<li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+				<li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+				<li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+			</ul>
+		</div>
+
+		<h4>Horizontal Floating Action (FAB)</h4>
+		<div class="fixed-action-btn horizontal" style="right:100px;">
+			<a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+			<ul>
+				<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+				<li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+				<li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+				<li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+			</ul>
+		</div>
+
+		<h4>Click Only FAB</h4>
+
+		<div class="fixed-action-btn horizontal click-to-toggle" style="right:175px;">
+			<a class="btn-floating btn-large red">
+      <i class="material-icons">menu</i>
+    </a>
+			<ul>
+				<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+				<li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+				<li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+				<li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+			</ul>
+		</div>
+
+		<h4>FAB To Toolbar</h4>
+
+		<div class="fixed-action-btn toolbar" style="right:250px;">
+			<a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+			<ul>
+				<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>
+				<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>
+				<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>
+				<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>
+			</ul>
+		</div>
+
+		<h4>Flat Button</h4>
+		<a class="waves-effect waves-teal btn-flat">Button</a>
+
+		<h4>Submit</h4>
+		<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+      <i class="material-icons right">send</i>
+    </button>
+
+		<h4>Large</h4>
+		<a class="waves-effect waves-light btn-large">Button</a>
+		<a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>button</a>
+		<a class="waves-effect waves-light btn-large"><i class="material-icons right">cloud</i>button</a>
+
+		<h4>Disabled</h4>
+
+		<a class="btn-large disabled">Button</a>
+		<a class="btn disabled">Button</a>
+		<a class="btn-flat disabled">Button</a>
+		<a class="btn-floating disabled"><i class="material-icons">add</i></a>
+		<h3>Breadcrumbs</h3>
+		<nav>
+			<div class="nav-wrapper">
+				<div class="col s12">
+					<a href="#!" class="breadcrumb">First</a>
+					<a href="#!" class="breadcrumb">Second</a>
+					<a href="#!" class="breadcrumb">Third</a>
+				</div>
+			</div>
+		</nav>
+		<h3>Cards</h3>
+
+		<div class="row">
+			<div class="col s12 m6">
+				<div class="card blue-grey darken-1">
+					<div class="card-content white-text">
+						<span class="card-title">Card Title</span>
+						<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+					</div>
+					<div class="card-action">
+						<a href="#">This is a link</a>
+						<a href="#">This is a link</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col s12 m7">
+				<div class="card">
+					<div class="card-image">
+						<img src="http://via.placeholder.com/350x150">
+						<span class="card-title">Card Title</span>
+					</div>
+					<div class="card-content">
+						<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+					</div>
+					<div class="card-action">
+						<a href="#">This is a link</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col s12 m6">
+				<div class="card">
+					<div class="card-image">
+						<img src="http://via.placeholder.com/350x150">
+						<span class="card-title">Card Title</span>
+						<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+					</div>
+					<div class="card-content">
+						<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col s12 m7">
+			<h2 class="header">Horizontal Card</h2>
+			<div class="card horizontal">
+				<div class="card-image">
+					<img src="https://lorempixel.com/100/190/nature/6">
+				</div>
+				<div class="card-stacked">
+					<div class="card-content">
+						<p>I am a very simple card. I am good at containing small bits of information.</p>
+					</div>
+					<div class="card-action">
+						<a href="#">This is a link</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-image waves-effect waves-block waves-light">
+				<img class="activator" src="http://via.placeholder.com/350x150">
+			</div>
+			<div class="card-content">
+				<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+				<p><a href="#">This is a link</a></p>
+			</div>
+			<div class="card-reveal">
+				<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+				<p>Here is some more information about this product that is only revealed once clicked on.</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+			</div>
+			<div class="card-tabs">
+				<ul class="tabs tabs-fixed-width">
+					<li class="tab"><a href="#test4">Test 1</a></li>
+					<li class="tab"><a class="active" href="#test5">Test 2</a></li>
+					<li class="tab"><a href="#test6">Test 3</a></li>
+				</ul>
+			</div>
+			<div class="card-content grey lighten-4">
+				<div id="test4">Test 1</div>
+				<div id="test5">Test 2</div>
+				<div id="test6">Test 3</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col s12 m5">
+				<div class="card-panel teal">
+					<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+      I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+      </span>
+				</div>
+			</div>
+		</div>
+
+		<h3>Chips</h3>
+		<div class="chip">
+			<img src="http://via.placeholder.com/300x300" alt="Contact Person"> Jane Doe
+		</div>
+
+		<div class="chip">
+			Tag
+			<i class="close material-icons">close</i>
+		</div>
+		<p>Default</p>
+		<div class="chips"></div>
+		<p>Initial</p>
+		<div class="chips chips-initial"></div>
+		<p>Placeholder</p>
+		<div class="chips chips-placeholder"></div>
+		<p>Autocomplete</p>
+		<div class="chips chips-autocomplete"></div>
+		<script type="text/javascript">
+			$('.chips').material_chip();
+			$('.chips-initial').material_chip({
+				data: [{
+					tag: 'Apple',
+				}, {
+					tag: 'Microsoft',
+				}, {
+					tag: 'Google',
+				}],
+			});
+			$('.chips-placeholder').material_chip({
+				placeholder: 'Enter a tag',
+				secondaryPlaceholder: '+Tag',
+			});
+			$('.chips-autocomplete').material_chip({
+				autocompleteOptions: {
+					data: {
+						'Apple': null,
+						'Microsoft': null,
+						'Google': null
+					},
+					limit: Infinity,
+					minLength: 1
+				}
+			});
+		</script>
+
+		<pre>
+      <code>
+
+  $('.chips').material_chip();
+  $('.chips-initial').material_chip({
+    data: [{
+      tag: 'Apple',
+    }, {
+      tag: 'Microsoft',
+    }, {
+      tag: 'Google',
+    }],
+  });
+  $('.chips-placeholder').material_chip({
+    placeholder: 'Enter a tag',
+    secondaryPlaceholder: '+Tag',
+  });
+  $('.chips-autocomplete').material_chip({
+    autocompleteOptions: {
+      data: {
+        'Apple': null,
+        'Microsoft': null,
+        'Google': null
+      },
+      limit: Infinity,
+      minLength: 1
+    }
+  });
+
+Chip data object
+
+
+  var chip = {
+    tag: 'chip content',
+    image: '', //optional
+    id: 1, //optional
+  };
+
+
+  $('.chips').on('chip.add', function(e, chip){
+    // you have the added chip here
+  });
+
+  $('.chips').on('chip.delete', function(e, chip){
+    // you have the deleted chip here
+  });
+
+  $('.chips').on('chip.select', function(e, chip){
+    // you have the selected chip here
+  });
+
+  $('.chips-initial').material_chip('data');
+      </code>
+    </pre>
+
+		<h3>Collections</h3>
+		<ul class="collection">
+			<li class="collection-item">Alvin</li>
+			<li class="collection-item">Alvin</li>
+			<li class="collection-item">Alvin</li>
+			<li class="collection-item">Alvin</li>
+		</ul>
+
+		<div class="collection">
+			<a href="#!" class="collection-item">Alvin</a>
+			<a href="#!" class="collection-item active">Alvin</a>
+			<a href="#!" class="collection-item">Alvin</a>
+			<a href="#!" class="collection-item">Alvin</a>
+		</div>
+
+		<ul class="collection with-header">
+			<li class="collection-header">
+				<h4>First Names</h4></li>
+			<li class="collection-item">Alvin</li>
+			<li class="collection-item">Alvin</li>
+			<li class="collection-item">Alvin</li>
+			<li class="collection-item">Alvin</li>
+		</ul>
+
+		<ul class="collection with-header">
+			<li class="collection-header">
+				<h4>First Names</h4></li>
+			<li class="collection-item">
+				<div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+			</li>
+			<li class="collection-item">
+				<div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+			</li>
+			<li class="collection-item">
+				<div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+			</li>
+			<li class="collection-item">
+				<div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+			</li>
+		</ul>
+
+		<ul class="collection">
+			<li class="collection-item avatar">
+				<img src="images/yuna.jpg" alt="" class="circle">
+				<span class="title">Title</span>
+				<p>First Line <br> Second Line
+				</p>
+				<a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+			</li>
+			<li class="collection-item avatar">
+				<i class="material-icons circle">folder</i>
+				<span class="title">Title</span>
+				<p>First Line <br> Second Line
+				</p>
+				<a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+			</li>
+			<li class="collection-item avatar">
+				<i class="material-icons circle green">insert_chart</i>
+				<span class="title">Title</span>
+				<p>First Line <br> Second Line
+				</p>
+				<a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+			</li>
+			<li class="collection-item avatar">
+				<i class="material-icons circle red">play_arrow</i>
+				<span class="title">Title</span>
+				<p>First Line <br> Second Line
+				</p>
+				<a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+			</li>
+		</ul>
+
+		<ul class="collection">
+			<li class="collection-item dismissable">
+				<div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+			</li>
+			<li class="collection-item dismissable">
+				<div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+			</li>
+			<li class="collection-item dismissable">
+				<div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+			</li>
+			<li class="collection-item dismissable">
+				<div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+			</li>
+		</ul>
+
+
+		<h3>Footer</h3>
+		<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Footer Content</h5>
+						<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">Links</h5>
+						<ul>
+							<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+							<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+							<li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+							<li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					© 2014 Copyright Text
+					<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+				</div>
+			</div>
+		</footer>
+
+
+		<h3>Forms</h3>
+
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s6">
+						<input placeholder="Placeholder" id="first_name" type="text" class="validate">
+						<label for="first_name">First Name</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="last_name" type="text" class="validate">
+						<label for="last_name">Last Name</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input disabled value="I am not editable" id="disabled" type="text" class="validate">
+						<label for="disabled">Disabled</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="password" type="password" class="validate">
+						<label for="password">Password</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="email" type="email" class="validate">
+						<label for="email">Email</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						This is an inline input field:
+						<div class="input-field inline">
+							<input id="email" type="email" class="validate">
+							<label for="email" data-error="wrong" data-success="right">Email</label>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<pre><code>
+  $(document).ready(function() {
+    Materialize.updateTextFields();
+  });
+        </code></pre>
+
+		<div class="row">
+			<div class="input-field col s6">
+				<input value="Alvin" id="first_name2" type="text" class="validate">
+				<label class="active" for="first_name2">First Name</label>
+			</div>
+		</div>
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s6">
+						<i class="material-icons prefix">account_circle</i>
+						<input id="icon_prefix" type="text" class="validate">
+						<label for="icon_prefix">First Name</label>
+					</div>
+					<div class="input-field col s6">
+						<i class="material-icons prefix">phone</i>
+						<input id="icon_telephone" type="tel" class="validate">
+						<label for="icon_telephone">Telephone</label>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="email" type="email" class="validate">
+						<label for="email" data-error="wrong" data-success="right">Email</label>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s12">
+						<textarea id="textarea1" class="materialize-textarea"></textarea>
+						<label for="textarea1">Textarea</label>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s6">
+						<i class="material-icons prefix">mode_edit</i>
+						<textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+						<label for="icon_prefix2">First Name</label>
+					</div>
+				</div>
+			</form>
+		</div>
+		<label>Materialize Disabled</label>
+		<select disabled>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+
+		<label>Browser Disabled</label>
+		<select class="browser-default" disabled>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+
+
+		<div class="input-field col s12">
+			<select>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+			<label>Materialize Select</label>
+		</div>
+
+		<div class="input-field col s12">
+			<select multiple>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+			<label>Materialize Multiple Select</label>
+		</div>
+
+		<div class="input-field col s12">
+			<select>
+      <optgroup label="team 1">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+      </optgroup>
+      <optgroup label="team 2">
+        <option value="3">Option 3</option>
+        <option value="4">Option 4</option>
+      </optgroup>
+    </select>
+			<label>Optgroups</label>
+		</div>
+
+		<div class="input-field col s12 m6">
+			<select class="icons">
+      <option value="" disabled selected>Choose your option</option>
+      <option value="" data-icon="images/sample-1.jpg" class="circle">example 1</option>
+      <option value="" data-icon="images/office.jpg" class="circle">example 2</option>
+      <option value="" data-icon="images/yuna.jpg" class="circle">example 3</option>
+    </select>
+			<label>Images in select</label>
+		</div>
+		<div class="input-field col s12 m6">
+			<select class="icons">
+      <option value="" disabled selected>Choose your option</option>
+      <option value="" data-icon="images/sample-1.jpg" class="left circle">example 1</option>
+      <option value="" data-icon="images/office.jpg" class="left circle">example 2</option>
+      <option value="" data-icon="images/yuna.jpg" class="left circle">example 3</option>
+    </select>
+			<label>Images in select</label>
+		</div>
+
+		<label>Browser Select</label>
+		<select class="browser-default">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+
+
+		<form action="#">
+			<p>
+				<input name="group1" type="radio" id="test1" />
+				<label for="test1">Red</label>
+			</p>
+			<p>
+				<input name="group1" type="radio" id="test2" />
+				<label for="test2">Yellow</label>
+			</p>
+			<p>
+				<input class="with-gap" name="group1" type="radio" id="test3" />
+				<label for="test3">Green</label>
+			</p>
+			<p>
+				<input name="group1" type="radio" id="test4" disabled="disabled" />
+				<label for="test4">Brown</label>
+			</p>
+		</form>
+
+
+		<form action="#">
+			<p>
+				<input type="checkbox" id="test5" />
+				<label for="test5">Red</label>
+			</p>
+			<p>
+				<input type="checkbox" id="test6" checked="checked" />
+				<label for="test6">Yellow</label>
+			</p>
+			<p>
+				<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+				<label for="filled-in-box">Filled in</label>
+			</p>
+			<p>
+				<input type="checkbox" id="indeterminate-checkbox" />
+				<label for="indeterminate-checkbox">Indeterminate Style</label>
+			</p>
+			<p>
+				<input type="checkbox" id="test7" checked="checked" disabled="disabled" />
+				<label for="test7">Green</label>
+			</p>
+			<p>
+				<input type="checkbox" id="test8" disabled="disabled" />
+				<label for="test8">Brown</label>
+			</p>
+		</form>
+
+
+		<!-- Switch -->
+		<div class="switch">
+			<label>
+      Off
+      <input type="checkbox">
+      <span class="lever"></span>
+      On
+    </label>
+		</div>
+
+		<!-- Disabled Switch -->
+		<div class="switch">
+			<label>
+      Off
+      <input disabled type="checkbox">
+      <span class="lever"></span>
+      On
+    </label>
+		</div>
+
+		<form action="#">
+			<div class="file-field input-field">
+				<div class="btn">
+					<span>File</span>
+					<input type="file">
+				</div>
+				<div class="file-path-wrapper">
+					<input class="file-path validate" type="text">
+				</div>
+			</div>
+		</form>
+
+		<form action="#">
+			<div class="file-field input-field">
+				<div class="btn">
+					<span>File</span>
+					<input type="file" multiple>
+				</div>
+				<div class="file-path-wrapper">
+					<input class="file-path validate" type="text" placeholder="Upload one or more files">
+				</div>
+			</div>
+		</form>
+
+		<form action="#">
+			<p class="range-field">
+				<input type="range" id="test5" min="0" max="100" />
+			</p>
+		</form>
+
+		<p>Birthdate</p>
+		<input type="date" class="datepicker">
+		<input type="date" class="timepicker">
+
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s6">
+						<input id="input_text" type="text" data-length="10">
+						<label for="input_text">Input text</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<textarea id="textarea1" class="materialize-textarea" data-length="120"></textarea>
+						<label for="textarea1">Textarea</label>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="row">
+			<div class="col s12">
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="material-icons prefix">textsms</i>
+						<input type="text" id="autocomplete-input" class="autocomplete">
+						<label for="autocomplete-input">Autocomplete</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h3>Icons</h3>
+		<i class="material-icons">add</i>
+		<i class="large material-icons">insert_chart</i>
+		<h3>Navbar</h3>
+
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">Logo</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">JavaScript</a></li>
+				</ul>
+			</div>
+		</nav>
+		<br>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo right">Logo</a>
+				<ul id="nav-mobile" class="left hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">JavaScript</a></li>
+				</ul>
+			</div>
+		</nav>
+		<br>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo center">Logo</a>
+				<ul class="left hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li class="active"><a href="collapsible.html">JavaScript</a></li>
+				</ul>
+			</div>
+		</nav>
+		<br>
+
+		<nav class="nav-extended">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">Logo</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">JavaScript</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">JavaScript</a></li>
+				</ul>
+			</div>
+			<div class="nav-content">
+				<ul class="tabs tabs-transparent">
+					<li class="tab"><a href="#test1">Test 1</a></li>
+					<li class="tab"><a class="active" href="#test2">Test 2</a></li>
+					<li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
+					<li class="tab"><a href="#test4">Test 4</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="test1" class="col s12">Test 1</div>
+		<div id="test2" class="col s12">Test 2</div>
+		<div id="test3" class="col s12">Test 3</div>
+		<div id="test4" class="col s12">Test 4</div>
+
+		<!-- Dropdown Structure -->
+		<ul id="dropdown1" class="dropdown-content">
+			<li><a href="#!">one</a></li>
+			<li><a href="#!">two</a></li>
+			<li class="divider"></li>
+			<li><a href="#!">three</a></li>
+		</ul>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">Logo</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<!-- Dropdown Trigger -->
+					<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+			</div>
+		</nav>
+		<br>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="sass.html"><i class="material-icons">search</i></a></li>
+					<li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+					<li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+					<li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+				</ul>
+			</div>
+		</nav>
+		<br>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">Logo</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="sass.html"><i class="material-icons left">search</i>Link with Left Icon</a></li>
+					<li><a href="badges.html"><i class="material-icons right">view_module</i>Link with Right Icon</a></li>
+				</ul>
+			</div>
+		</nav>
+		<br>
+
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">Logo</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a class="waves-effect waves-light btn">Button</a></li>
+					<li><a class="waves-effect waves-light btn">Button <i class="material-icons right">cloud</i></a></li>
+					<li><a class="waves-effect waves-light btn-large">Large Button</a></li>
+				</ul>
+			</div>
+		</nav>
+		<br>
+		<nav class="nav-extended">
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">Logo</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a>A link</a></li>
+					<li><a>A second link</a></li>
+					<li><a>A third link</a></li>
+				</ul>
+			</div>
+			<div class="nav-content">
+				<span class="nav-title">Title</span>
+				<a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
+      <i class="material-icons">add</i>
+    </a>
+			</div>
+		</nav>
+		<br>
+		<nav>
+			<div class="nav-wrapper">
+				<form>
+					<div class="input-field">
+						<input id="search" type="search" required>
+						<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+						<i class="material-icons">close</i>
+					</div>
+				</form>
+			</div>
+		</nav>
+		<br>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">Logo</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">Javascript</a></li>
+					<li><a href="mobile.html">Mobile</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">Javascript</a></li>
+					<li><a href="mobile.html">Mobile</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<h3>Pagination</h3>
+		<ul class="pagination">
+			<li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+			<li class="active"><a href="#!">1</a></li>
+			<li class="waves-effect"><a href="#!">2</a></li>
+			<li class="waves-effect"><a href="#!">3</a></li>
+			<li class="waves-effect"><a href="#!">4</a></li>
+			<li class="waves-effect"><a href="#!">5</a></li>
+			<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+		</ul>
+		<h3>Preloader</h3>
+		<div class="progress">
+			<div class="determinate" style="width: 70%"></div>
+		</div>
+		<div class="progress">
+			<div class="indeterminate"></div>
+		</div>
+
+		<div class="preloader-wrapper big active">
+			<div class="spinner-layer spinner-blue-only">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="preloader-wrapper active">
+			<div class="spinner-layer spinner-red-only">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="preloader-wrapper small active">
+			<div class="spinner-layer spinner-green-only">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+		</div>
+		<div class="preloader-wrapper big active">
+			<div class="spinner-layer spinner-blue">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+
+			<div class="spinner-layer spinner-red">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+
+			<div class="spinner-layer spinner-yellow">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+
+			<div class="spinner-layer spinner-green">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+		</div>
+		.container
+		<h2>Javascript Components</h2>
+		<h4>Carousel</h4>
+		<div class="carousel">
+			<a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+			<a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+			<a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+			<a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+			<a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.carousel').carousel();
+			});
+		</script>
+		<pre>
+  <code>// Next slide
+$('.carousel').carousel('next');
+$('.carousel').carousel('next', 3); // Move next n times.
+// Previous slide
+$('.carousel').carousel('prev');
+$('.carousel').carousel('prev', 4); // Move prev n times.
+// Set to nth slide
+$('.carousel').carousel('set', 4);
+      </code>
+</pre>
+
+
+		<div class="carousel carousel-slider">
+			<a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+			<a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+			<a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+			<a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+		</div>
+
+
+		<script type="text/javascript">
+			$('.carousel.carousel-slider').carousel({
+				fullWidth: true
+			});
+		</script>
+
+		<div class="carousel carousel-slider center" data-indicators="true">
+			<div class="carousel-fixed-item center">
+				<a class="btn waves-effect white grey-text darken-text-2">button</a>
+			</div>
+			<div class="carousel-item red white-text" href="#one!">
+				<h2>First Panel</h2>
+				<p class="white-text">This is your first panel</p>
+			</div>
+			<div class="carousel-item amber white-text" href="#two!">
+				<h2>Second Panel</h2>
+				<p class="white-text">This is your second panel</p>
+			</div>
+			<div class="carousel-item green white-text" href="#three!">
+				<h2>Third Panel</h2>
+				<p class="white-text">This is your third panel</p>
+			</div>
+			<div class="carousel-item blue white-text" href="#four!">
+				<h2>Fourth Panel</h2>
+				<p class="white-text">This is your fourth panel</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.carousel.carousel-slider').carousel({
+				fullWidth: true
+			});
+		</script>
+		<h4>Collapsible</h4>
+		<ul class="collapsible" data-collapsible="accordion">
+			<li>
+				<div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+				<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+			</li>
+			<li>
+				<div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+				<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+			</li>
+			<li>
+				<div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+				<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+			</li>
+		</ul>
+
+		<h4>Dialogs</h4>
+		<a class="btn" onclick="Materialize.toast('I am a toast', 4000)">Toast!</a>
+		<script type="text/javascript">
+			// Materialize.toast(message, displayLength, className, completeCallback);
+			//Materialize.toast('I am a toast!', 4000) // 4000 is the duration of the toast
+		</script>
+
+		<a class="btn" onclick="Materialize.toast('I am a toast', 4000,'',function(){alert('Your toast was dismissed')})">Toast!</a>
+		<!-- data-position can be : bottom, top, left, or right -->
+		<!-- data-delay controls delay before tooltip shows (in milliseconds)-->
+		<a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="I am tooltip">Hover me!</a>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.tooltipped').tooltip({
+					delay: 50
+				});
+				$('.tap-target').tapTarget('open');
+				$('.tap-target').tapTarget('close');
+			});
+		</script>
+
+
+		<h4>Dropdown</h4>
+		<!-- Dropdown Trigger -->
+		<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
+
+		<!-- Dropdown Structure -->
+		<ul id='dropdown1' class='dropdown-content'>
+			<li><a href="#!">one</a></li>
+			<li><a href="#!">two</a></li>
+			<li class="divider"></li>
+			<li><a href="#!">three</a></li>
+			<li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+			<li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+		</ul>
+		<h4>FeatureDiscovery</h4>
+		<!-- Element Showed -->
+		<a id="menu" class="waves-effect waves-light btn btn-floating"><i class="material-icons">menu</i></a>
+
+		<!-- Tap Target Structure -->
+		<div class="tap-target" data-activates="menu">
+			<div class="tap-target-content">
+				<h5>Title</h5>
+				<p>A bunch of text</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+		</script>
+		<h4>Media</h4>
+		<img class="materialboxed" width="650" src="images/sample-1.jpg">
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.materialboxed').materialbox();
+			});
+		</script>
+		<img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="250" src="https://lorempixel.com/800/400/nature/4">
+		<div class="slider">
+			<ul class="slides">
+				<li>
+					<img src="https://lorempixel.com/580/250/nature/1">
+					<!-- random image -->
+					<div class="caption center-align">
+						<h3>This is our big Tagline!</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="https://lorempixel.com/580/250/nature/2">
+					<!-- random image -->
+					<div class="caption left-align">
+						<h3>Left Aligned Caption</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="https://lorempixel.com/580/250/nature/3">
+					<!-- random image -->
+					<div class="caption right-align">
+						<h3>Right Aligned Caption</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="https://lorempixel.com/580/250/nature/4">
+					<!-- random image -->
+					<div class="caption center-align">
+						<h3>This is our big Tagline!</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.slider').slider();
+			});
+		</script>
+		<h4>Modals</h4>
+		<!-- Modal Trigger -->
+		<a class="waves-effect waves-light btn" href="#modal1">Modal</a>
+
+		<!-- Modal Structure -->
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Modal Header</h4>
+				<p>A bunch of text</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+			</div>
+		</div>
+		<!-- Modal Trigger -->
+		<a class="waves-effect waves-light btn" href="#modal1">Modal</a>
+
+		<!-- Modal Structure -->
+		<div id="modal2" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4>Modal Header</h4>
+				<p>A bunch of text</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+			</div>
+		</div>
+
+		<!-- Modal Trigger -->
+		<a class="waves-effect waves-light btn" href="#modal2">Modal</a>
+
+		<!-- Modal Structure -->
+		<div id="modal3" class="modal bottom-sheet">
+			<div class="modal-content">
+				<h4>Modal Header</h4>
+				<p>A bunch of text</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+			</div>
+		</div>
+		<button data-target="modal3" class="btn">Modal</button>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				// the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+				$('.modal').modal();
+			});
+		</script>
+		<h4>Parallax</h4>
+		<div class="parallax-container" style="height: 200px;">
+			<div class="parallax"><img src="http://lorempixel.com/400/200/"></div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.parallax').parallax();
+			});
+		</script>
+		<h4>Pushpin</h4>
+		<h4>ScrollFire</h4>
+		<h4>Scrollspy</h4>
+		<div class="row">
+			<div class="col s12 m9 l10">
+				<div id="introduction" class="section scrollspy">
+					<p>Content </p>
+				</div>
+
+				<div id="structure" class="section scrollspy">
+					<p>Content </p>
+				</div>
+
+				<div id="initialization" class="section scrollspy">
+					<p>Content </p>
+				</div>
+			</div>
+			<div class="col hide-on-small-only m3 l2">
+				<ul class="section table-of-contents">
+					<li><a href="#introduction">Introduction</a></li>
+					<li><a href="#structure">Structure</a></li>
+					<li><a href="#initialization">Intialization</a></li>
+				</ul>
+			</div>
+		</div>]
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.scrollspy').scrollSpy();
+			});
+		</script>
+
+		<h4>SideNav</h4>
+		<ul id="slide-out" class="side-nav">
+			<li>
+				<div class="user-view">
+					<div class="background">
+						<img src="images/office.jpg">
+					</div>
+					<a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+					<a href="#!name"><span class="white-text name">John Doe</span></a>
+					<a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+				</div>
+			</li>
+			<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+			<li><a href="#!">Second Link</a></li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li><a class="subheader">Subheader</a></li>
+			<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+		</ul>
+		<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+		<script type="text/javascript">
+			// Initialize collapse button
+			$(".button-collapse").sideNav();
+			// Initialize collapsible (uncomment the line below if you use the dropdown variation)
+			//$('.collapsible').collapsible();
+		</script>
+		<h4>Tabs</h4>
+		<div class="row">
+			<div class="col s12">
+				<ul class="tabs">
+					<li class="tab col s3"><a href="#test1">Test 1</a></li>
+					<li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+					<li class="tab col s3 disabled"><a href="#test3">Disabled Tab</a></li>
+					<li class="tab col s3"><a href="#test4">Test 4</a></li>
+				</ul>
+			</div>
+			<div id="test1" class="col s12">Test 1</div>
+			<div id="test2" class="col s12">Test 2</div>
+			<div id="test3" class="col s12">Test 3</div>
+			<div id="test4" class="col s12">Test 4</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('ul.tabs').tabs();
+			});
+		</script>
+
+		<ul id="tabs-swipe-demo" class="tabs">
+			<li class="tab col s3"><a href="#test-swipe-1">Test 1</a></li>
+			<li class="tab col s3"><a class="active" href="#test-swipe-2">Test 2</a></li>
+			<li class="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
+		</ul>
+		<div id="test-swipe-1" class="col s12 blue">Test 1</div>
+		<div id="test-swipe-2" class="col s12 red">Test 2</div>
+		<div id="test-swipe-3" class="col s12 green">Test 3</div>
+		<h4>Transitions</h4>
+		<a href="#!" class="btn" onclick="Materialize.showStaggeredList('#staggered-test')">Click Me</a>
+		<a href="#!" class="btn" onclick="Materialize.fadeInImage('#image-test')">Click Me</a>
+
+		<h4>Waves</h4>
+		<a href="#!" class="btn waves-effect waves-teal">Send</a>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('select').material_select();
+			});
+
+			$('.datepicker').pickadate({
+				selectMonths: true, // Creates a dropdown to control month
+				selectYears: 15 // Creates a dropdown of 15 years to control year
+			});
+
+			$('.timepicker').pickatime({
+				default: 'now', // Set default time
+				fromnow: 0, // set default time to * milliseconds from now (using with default = 'now')
+				twelvehour: true, // Use AM/PM or 24-hour format
+				donetext: 'OK', // text for done-button
+				cleartext: 'Clear', // text for clear-button
+				canceltext: 'Cancel', // Text for cancel-button
+				autoclose: false, // automatic close timepicker
+				ampmclickable: true, // make AM PM clickable
+				aftershow: function() {} //Function for after opening timepicker
+			});
+
+			$(document).ready(function() {
+				$('input#input_text, textarea#textarea1').characterCounter();
+			});
+
+			$('input.autocomplete').autocomplete({
+				data: {
+					"Apple": null,
+					"Microsoft": null,
+					"Google": 'https://placehold.it/250x250'
+				},
+				limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+				onAutocomplete: function(val) {
+					// Callback function when value is autcompleted.
+				},
+				minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+			});
+			$(".button-collapse").sideNav();
+		</script>
+</body>
 
 </html>
